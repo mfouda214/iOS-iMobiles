@@ -18,6 +18,7 @@
 		D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59252095D547004F46FD /* ItemDetailV.swift */; };
 		D4BC59282095D765004F46FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59272095D765004F46FD /* Info.plist */; };
 		D4BC592A2095D7AF004F46FD /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */; };
+		D4BC592C2095D86B004F46FD /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC592B2095D86B004F46FD /* QRScannerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D4BC59252095D547004F46FD /* ItemDetailV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailV.swift; sourceTree = "<group>"; };
 		D4BC59272095D765004F46FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		D4BC592B2095D86B004F46FD /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */,
+				D4BC592B2095D86B004F46FD /* QRScannerController.swift */,
 				D4BC590B2095D006004F46FD /* imobiles */,
 				D4BC590A2095D006004F46FD /* Products */,
 			);
@@ -157,6 +160,7 @@
 				D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */,
 				D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */,
 				D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */,
+				D4BC592C2095D86B004F46FD /* QRScannerController.swift in Sources */,
 				D4BC592A2095D7AF004F46FD /* QRCodeViewController.swift in Sources */,
 				D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */,
 			);
