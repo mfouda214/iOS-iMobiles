@@ -13,6 +13,7 @@
 		D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59132095D006004F46FD /* imobiles.xcdatamodeld */; };
 		D4BC59172095D00A004F46FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59162095D00A004F46FD /* Assets.xcassets */; };
 		D4BC591A2095D00A004F46FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59182095D00A004F46FD /* LaunchScreen.storyboard */; };
+		D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59212095D42F004F46FD /* ChecklistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D4BC59162095D00A004F46FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4BC59192095D00A004F46FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4BC591B2095D00A004F46FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BC59212095D42F004F46FD /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D4BC590C2095D006004F46FD /* AppDelegate.swift */,
 				D4BC590E2095D006004F46FD /* ViewController.swift */,
+				D4BC59212095D42F004F46FD /* ChecklistViewController.swift */,
 				D4BC59102095D006004F46FD /* Main.storyboard */,
 				D4BC59162095D00A004F46FD /* Assets.xcassets */,
 				D4BC59182095D00A004F46FD /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4BC590F2095D006004F46FD /* ViewController.swift in Sources */,
+				D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */,
 				D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */,
 				D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */,
 			);
