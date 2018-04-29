@@ -15,6 +15,7 @@
 		D4BC591A2095D00A004F46FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59182095D00A004F46FD /* LaunchScreen.storyboard */; };
 		D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59212095D42F004F46FD /* ChecklistViewController.swift */; };
 		D4BC59242095D4D9004F46FD /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59232095D4D9004F46FD /* ChecklistItem.swift */; };
+		D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59252095D547004F46FD /* ItemDetailV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D4BC591B2095D00A004F46FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BC59212095D42F004F46FD /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		D4BC59232095D4D9004F46FD /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		D4BC59252095D547004F46FD /* ItemDetailV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				D4BC59212095D42F004F46FD /* ChecklistViewController.swift */,
 				D4BC59232095D4D9004F46FD /* ChecklistItem.swift */,
 				D4BC59102095D006004F46FD /* Main.storyboard */,
+				D4BC59252095D547004F46FD /* ItemDetailV.swift */,
 				D4BC59162095D00A004F46FD /* Assets.xcassets */,
 				D4BC59182095D00A004F46FD /* LaunchScreen.storyboard */,
 				D4BC591B2095D00A004F46FD /* Info.plist */,
@@ -148,6 +151,7 @@
 				D4BC59242095D4D9004F46FD /* ChecklistItem.swift in Sources */,
 				D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */,
 				D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */,
+				D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */,
 				D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
