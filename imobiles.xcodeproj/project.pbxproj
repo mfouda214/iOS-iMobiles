@@ -16,6 +16,8 @@
 		D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59212095D42F004F46FD /* ChecklistViewController.swift */; };
 		D4BC59242095D4D9004F46FD /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59232095D4D9004F46FD /* ChecklistItem.swift */; };
 		D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59252095D547004F46FD /* ItemDetailV.swift */; };
+		D4BC59282095D765004F46FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59272095D765004F46FD /* Info.plist */; };
+		D4BC592A2095D7AF004F46FD /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +28,11 @@
 		D4BC59142095D006004F46FD /* imobiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = imobiles.xcdatamodel; sourceTree = "<group>"; };
 		D4BC59162095D00A004F46FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4BC59192095D00A004F46FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D4BC591B2095D00A004F46FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BC59212095D42F004F46FD /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		D4BC59232095D4D9004F46FD /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		D4BC59252095D547004F46FD /* ItemDetailV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailV.swift; sourceTree = "<group>"; };
+		D4BC59272095D765004F46FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,7 @@
 		D4BC59002095D006004F46FD = {
 			isa = PBXGroup;
 			children = (
+				D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */,
 				D4BC590B2095D006004F46FD /* imobiles */,
 				D4BC590A2095D006004F46FD /* Products */,
 			);
@@ -70,7 +74,7 @@
 				D4BC59252095D547004F46FD /* ItemDetailV.swift */,
 				D4BC59162095D00A004F46FD /* Assets.xcassets */,
 				D4BC59182095D00A004F46FD /* LaunchScreen.storyboard */,
-				D4BC591B2095D00A004F46FD /* Info.plist */,
+				D4BC59272095D765004F46FD /* Info.plist */,
 				D4BC59132095D006004F46FD /* imobiles.xcdatamodeld */,
 			);
 			path = imobiles;
@@ -134,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BC59282095D765004F46FD /* Info.plist in Resources */,
 				D4BC591A2095D00A004F46FD /* LaunchScreen.storyboard in Resources */,
 				D4BC59172095D00A004F46FD /* Assets.xcassets in Resources */,
 				D4BC59122095D006004F46FD /* Main.storyboard in Resources */,
@@ -152,6 +157,7 @@
 				D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */,
 				D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */,
 				D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */,
+				D4BC592A2095D7AF004F46FD /* QRCodeViewController.swift in Sources */,
 				D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
