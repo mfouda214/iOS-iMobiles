@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ChecklistViewController: UITableViewController, ItemDetailViewControllerDelegate {
     
@@ -36,7 +37,10 @@ class ChecklistViewController: UITableViewController, ItemDetailViewControllerDe
         navigationController?.popViewController(animated: true)
     }
     
+    // MARK: - Initializing the NSFetchedResultsController
     
+    var fetchedResultsController: NSFetchedResultsController<Todo>?
+
     var items: [ChecklistItem]
     
     @IBAction func addItem(_ sender: Any) {
