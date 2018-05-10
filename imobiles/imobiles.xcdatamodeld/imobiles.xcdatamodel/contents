@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Todo" representedClassName="Todo" syncable="YES">
-        <attribute name="todoListArray" optional="YES" attributeType="Transformable" syncable="YES"/>
+    <entity name="Items" representedClassName="Items" syncable="YES">
+        <attribute name="completed" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Todo" positionX="-45" positionY="-495" width="128" height="60"/>
+        <element name="Items" positionX="-45" positionY="-495" width="128" height="75"/>
     </elements>
 </model>

@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4162167209B7EFD00192FF2 /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4162165209B7EFD00192FF2 /* Todo+CoreDataClass.swift */; };
-		D4162168209B7EFD00192FF2 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4162166209B7EFD00192FF2 /* Todo+CoreDataProperties.swift */; };
+		D416220920A4AFB700192FF2 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D416220820A4AFB700192FF2 /* TodoViewController.swift */; };
 		D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC590C2095D006004F46FD /* AppDelegate.swift */; };
 		D4BC590F2095D006004F46FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC590E2095D006004F46FD /* ViewController.swift */; };
 		D4BC59122095D006004F46FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59102095D006004F46FD /* Main.storyboard */; };
 		D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59132095D006004F46FD /* imobiles.xcdatamodeld */; };
 		D4BC59172095D00A004F46FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59162095D00A004F46FD /* Assets.xcassets */; };
-		D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59212095D42F004F46FD /* ChecklistViewController.swift */; };
-		D4BC59242095D4D9004F46FD /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59232095D4D9004F46FD /* ChecklistItem.swift */; };
-		D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59252095D547004F46FD /* ItemDetailV.swift */; };
 		D4BC592A2095D7AF004F46FD /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */; };
 		D4BC592C2095D86B004F46FD /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC592B2095D86B004F46FD /* QRScannerController.swift */; };
 		D4BC592E2095FBF3004F46FD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BC592D2095FBF3004F46FD /* Launch Screen.storyboard */; };
@@ -24,17 +20,13 @@
 
 /* Begin PBXFileReference section */
 		D41621522096163B00192FF2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4162165209B7EFD00192FF2 /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D4162166209B7EFD00192FF2 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D416220820A4AFB700192FF2 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		D4BC59092095D006004F46FD /* imobiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imobiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BC590C2095D006004F46FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4BC590E2095D006004F46FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4BC59112095D006004F46FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4BC59142095D006004F46FD /* imobiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = imobiles.xcdatamodel; sourceTree = "<group>"; };
 		D4BC59162095D00A004F46FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4BC59212095D42F004F46FD /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
-		D4BC59232095D4D9004F46FD /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
-		D4BC59252095D547004F46FD /* ItemDetailV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailV.swift; sourceTree = "<group>"; };
 		D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		D4BC592B2095D86B004F46FD /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		D4BC592D2095FBF3004F46FD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -54,8 +46,6 @@
 		D4BC59002095D006004F46FD = {
 			isa = PBXGroup;
 			children = (
-				D4162165209B7EFD00192FF2 /* Todo+CoreDataClass.swift */,
-				D4162166209B7EFD00192FF2 /* Todo+CoreDataProperties.swift */,
 				D4BC590B2095D006004F46FD /* imobiles */,
 				D4BC590A2095D006004F46FD /* Products */,
 			);
@@ -74,11 +64,9 @@
 			children = (
 				D4BC590C2095D006004F46FD /* AppDelegate.swift */,
 				D4BC590E2095D006004F46FD /* ViewController.swift */,
-				D4BC59212095D42F004F46FD /* ChecklistViewController.swift */,
-				D4BC59232095D4D9004F46FD /* ChecklistItem.swift */,
-				D4BC59252095D547004F46FD /* ItemDetailV.swift */,
 				D4BC59292095D7AF004F46FD /* QRCodeViewController.swift */,
 				D4BC592B2095D86B004F46FD /* QRScannerController.swift */,
+				D416220820A4AFB700192FF2 /* TodoViewController.swift */,
 				D4BC59102095D006004F46FD /* Main.storyboard */,
 				D4BC59162095D00A004F46FD /* Assets.xcassets */,
 				D4BC592D2095FBF3004F46FD /* Launch Screen.storyboard */,
@@ -160,15 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4BC590F2095D006004F46FD /* ViewController.swift in Sources */,
-				D4BC59242095D4D9004F46FD /* ChecklistItem.swift in Sources */,
-				D4BC59222095D42F004F46FD /* ChecklistViewController.swift in Sources */,
 				D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */,
-				D4BC59262095D547004F46FD /* ItemDetailV.swift in Sources */,
-				D4162167209B7EFD00192FF2 /* Todo+CoreDataClass.swift in Sources */,
 				D4BC592C2095D86B004F46FD /* QRScannerController.swift in Sources */,
 				D4BC592A2095D7AF004F46FD /* QRCodeViewController.swift in Sources */,
+				D416220920A4AFB700192FF2 /* TodoViewController.swift in Sources */,
 				D4BC59152095D006004F46FD /* imobiles.xcdatamodeld in Sources */,
-				D4162168209B7EFD00192FF2 /* Todo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
