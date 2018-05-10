@@ -24,14 +24,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func TodoList(_ sender: Any) {
-        
+
         let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "todo")
-        
+        let viewController = storyboard.instantiateViewController(withIdentifier: "TodoList")
+
         viewController.modalPresentationStyle = .fullScreen
         present(viewController, animated: true, completion:nil)
-        
-        
+
+
     }
     
     @IBAction func QRScan(_ sender: Any) {

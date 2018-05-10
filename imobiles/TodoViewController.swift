@@ -28,6 +28,16 @@ class TodoViewController: UITableViewController {
         
         
     }
+    @IBAction func MainViewButton(_ sender: UIBarButtonItem) {
+        
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "MainView")
+        
+        viewController.modalPresentationStyle = .fullScreen
+        present(viewController, animated: true, completion:nil)
+
+        
+    }
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
