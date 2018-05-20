@@ -70,15 +70,34 @@ class TodoViewController: UITableViewController {
     }
     
     // MARK: - CONFIGURE TABLEVIEW
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        tableView.deselectRow(at: indexPath, animated: true)
-        items[indexPath.row].completed = !items[indexPath.row].completed
-        saveItems()
-    }
-    
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
+    }
+    
+    override func tableView(_ tableView: UITableView,
+                   leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
+    {
+        let checkAction = UIContextualAction(style: .normal, title:  "Checked", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+
+            if !(self.items[indexPath.row].completed) {
+                self.items[indexPath.row].completed = !self.items[indexPath.row].completed
+                self.saveItems()
+                print("OK, \(self.items[indexPath.row].name ?? "item") marked as Completed")
+            } else {
+                self.items[indexPath.row].completed = !self.items[indexPath.row].completed
+                self.saveItems()
+                print("OK, \(self.items[indexPath.row].name ?? "item") marked as Uncompleted")
+            }
+            
+            success(true)
+            
+        })
+        
+        checkAction.image = UIImage(named: "tick")
+        checkAction.backgroundColor = .green
+        
+        return UISwipeActionsConfiguration(actions: [checkAction])
+        
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
