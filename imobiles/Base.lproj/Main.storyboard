@@ -435,7 +435,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2547.65625" y="-811.5234375"/>
+            <point key="canvasLocation" x="1977" y="-2376"/>
         </scene>
         <!--Scanner Controller-->
         <scene sceneID="YG4-cC-kNv">
@@ -507,7 +507,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rfv-H2-yOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="8df-oj-XFL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1623" y="-1785"/>
+            <point key="canvasLocation" x="3167" y="-1925"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="7ab-R2-QoO">
@@ -517,8 +517,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAw-ga-DDB">
-                                <rect key="frame" x="169.66666666666666" y="357.66666666666669" width="75" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Choose Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAw-ga-DDB">
+                                <rect key="frame" x="131" y="357.66666666666669" width="152" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -538,7 +538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1UQ-pD-FQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4991.304347826087" y="-2470.108695652174"/>
+            <point key="canvasLocation" x="4974" y="-2376"/>
         </scene>
         <!--Todo List-->
         <scene sceneID="NVj-M5-B21">
@@ -628,7 +628,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ViH-Wb-i80" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4084.057971014493" y="-2470.108695652174"/>
+            <point key="canvasLocation" x="4084" y="-2376"/>
         </scene>
     </scenes>
     <resources>
