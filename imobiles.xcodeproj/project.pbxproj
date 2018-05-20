@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D416220920A4AFB700192FF2 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D416220820A4AFB700192FF2 /* TodoViewController.swift */; };
 		D416220C20A4B32F00192FF2 /* TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D416220A20A4B32F00192FF2 /* TodoList.xcdatamodeld */; };
+		D420AE9D20B1826F00927773 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420AE9C20B1826F00927773 /* DetailViewController.swift */; };
 		D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC590C2095D006004F46FD /* AppDelegate.swift */; };
 		D4BC590F2095D006004F46FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC590E2095D006004F46FD /* ViewController.swift */; };
 		D4BC59122095D006004F46FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BC59102095D006004F46FD /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		D41621522096163B00192FF2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D416220820A4AFB700192FF2 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		D416220B20A4B32F00192FF2 /* TodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoList.xcdatamodel; sourceTree = "<group>"; };
+		D420AE9C20B1826F00927773 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D4BC59092095D006004F46FD /* imobiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imobiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BC590C2095D006004F46FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4BC590E2095D006004F46FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				D4BC590E2095D006004F46FD /* ViewController.swift */,
 				D4BC592B2095D86B004F46FD /* QRScannerController.swift */,
 				D416220820A4AFB700192FF2 /* TodoViewController.swift */,
+				D420AE9C20B1826F00927773 /* DetailViewController.swift */,
 				D4BC59102095D006004F46FD /* Main.storyboard */,
 				D4BC59162095D00A004F46FD /* Assets.xcassets */,
 				D4BC592D2095FBF3004F46FD /* Launch Screen.storyboard */,
@@ -147,6 +150,7 @@
 				D4BC590F2095D006004F46FD /* ViewController.swift in Sources */,
 				D4BC590D2095D006004F46FD /* AppDelegate.swift in Sources */,
 				D4BC592C2095D86B004F46FD /* QRScannerController.swift in Sources */,
+				D420AE9D20B1826F00927773 /* DetailViewController.swift in Sources */,
 				D416220920A4AFB700192FF2 /* TodoViewController.swift in Sources */,
 				D416220C20A4B32F00192FF2 /* TodoList.xcdatamodeld in Sources */,
 			);

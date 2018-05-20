@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     @IBAction func TodoList(_ sender: Any) {
 
         let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "TodoList")
+        let viewController = storyboard.instantiateViewController(withIdentifier: "Master") //TodoList
 
         viewController.modalPresentationStyle = .fullScreen
         present(viewController, animated: true, completion:nil)
