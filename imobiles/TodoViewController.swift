@@ -47,6 +47,7 @@ class TodoViewController: UITableViewController {
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
             let newItem = Items(context: self.context)
             newItem.name = textField.text!
+            newItem.completed = false
             self.items.append(newItem)
             self.saveItems()
         }
@@ -56,7 +57,8 @@ class TodoViewController: UITableViewController {
             textField = field
             textField.placeholder = "Add a New Item"
         }
-        present(alert, animated: true, completion: nil)
+        
+        present(alert, animated: true)
     }
     
     // MARK: - SAVE NEW ITEM TO CORE DATA
