@@ -1,30 +1,34 @@
 //
-//  QRCodeViewController.swift
+//  DetailViewController.swift
 //  imobiles
 //
-//  Created by Mohamed Sobhi  Fouda on 4/29/18.
+//  Created by Mohamed Sobhi  Fouda on 5/20/18.
 //  Copyright © 2018 Mohamed Sobhi Fouda. All rights reserved.
 //
 
 import UIKit
 
-class QRCodeViewController: UIViewController {
+class DetailViewController: UIViewController {
+    
+    var item: Items?
+    @IBOutlet weak var Label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+        navigationItem.leftItemsSupplementBackButton = true
+//
+        if let detailItem = self.item {
+            navigationItem.title = detailItem.name
+            Label.text  = detailItem.name
+//            view.backgroundColor = detailItem.color
+        }
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    // MARK: - Navigation
-    
-    @IBAction func unwindToHomeScreen(segue: UIStoryboardSegue) {
-        dismiss(animated: true, completion: nil)
     }
     
     

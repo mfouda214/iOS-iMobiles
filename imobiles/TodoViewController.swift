@@ -39,69 +39,64 @@ class TodoViewController: UITableViewController {
         
     }
     
+    // MARK: - ADD NEW ITEM
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
         var textField = UITextField()
-        
         let alert = UIAlertController(title: "Add New Item", message: "", preferredStyle: .alert)
-        
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
-            
             let newItem = Items(context: self.context)
-            
-            
             newItem.name = textField.text!
-            
             self.items.append(newItem)
-            
             self.saveItems()
-            
         }
         
         alert.addAction(action)
-        
-        
         alert.addTextField { (field) in
-            
             textField = field
-            
             textField.placeholder = "Add a New Item"
-            
         }
-        
         present(alert, animated: true, completion: nil)
-        
     }
     
+    // MARK: - SAVE NEW ITEM TO CORE DATA
     func saveItems(){
-        
         do{
-            
             try context.save()
-            
         }catch {
-            
             print("Error saving item with \(error)")
-            
         }
-        
         tableView.reloadData()
-        
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        tableView.deselectRow(at: indexPath, animated: true)
-        
-        items[indexPath.row].completed = !items[indexPath.row].completed
-        
-        saveItems()
-        
-    }
-    
+    // MARK: - CONFIGURE TABLEVIEW
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        
         return true
+    }
+    
+    override func tableView(_ tableView: UITableView,
+                   leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
+    {
+        let checkAction = UIContextualAction(style: .normal, title:  "Checked", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+
+            if !(self.items[indexPath.row].completed) {
+                self.items[indexPath.row].completed = !self.items[indexPath.row].completed
+                self.saveItems()
+                print("OK, \(self.items[indexPath.row].name ?? "item") marked as Completed")
+            } else {
+                self.items[indexPath.row].completed = !self.items[indexPath.row].completed
+                self.saveItems()
+                print("OK, \(self.items[indexPath.row].name ?? "item") marked as Uncompleted")
+            }
+            
+            success(true)
+            
+        })
+        
+        checkAction.image = UIImage(named: "tick")
+        checkAction.backgroundColor = .green
+        
+        return UISwipeActionsConfiguration(actions: [checkAction])
         
     }
     
@@ -137,20 +132,27 @@ class TodoViewController: UITableViewController {
         
     }
     
-    func loadItems(){
-        
-        let request: NSFetchRequest<Items> = Items.fetchRequest()
-        
-        do {
-            
-            items = try context.fetch(request)
-            
-        }catch {
-            
-            print("Error fetching data from context \(error)")
-            
+    // MARK: - PREPARE SEGUE
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetails" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let item = items[indexPath.row]
+                let navigationController = segue.destination as! UINavigationController
+                let controller = navigationController.topViewController as! DetailViewController
+                controller.item = item
+            }
         }
-        
+    }
+    
+    // MARK: - LOAD ITEMS INTO TABLEVIEW
+    func loadItems(){
+        let request: NSFetchRequest<Items> = Items.fetchRequest()
+        do {
+            items = try context.fetch(request)
+        }catch {
+            print("Error fetching data from context \(error)")
+        }
         tableView.reloadData()
     }
     

@@ -97,6 +97,8 @@ class QRScannerController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
     // MARK: - Helper methods
     
     func launchApp(decodedURL: String) {
