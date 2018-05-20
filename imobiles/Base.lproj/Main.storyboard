@@ -437,60 +437,10 @@
             </objects>
             <point key="canvasLocation" x="2547.65625" y="-811.5234375"/>
         </scene>
-        <!--Code View Controller-->
-        <scene sceneID="0zS-Yw-k1L">
-            <objects>
-                <viewController storyboardIdentifier="scan" id="Xyb-tS-I2u" customClass="QRCodeViewController" customModule="imobiles" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YGR-N2-bey">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Scan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQg-GZ-OXa">
-                                <rect key="frame" x="108.66666666666669" y="34.000000000000007" width="197" height="68.666666666666686"/>
-                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="50"/>
-                                <color key="textColor" red="0.99215686270000003" green="0.81568627449999997" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOl-GV-EtL">
-                                <rect key="frame" x="132" y="293" width="150" height="150"/>
-                                <color key="tintColor" red="0.99215686270000003" green="0.81568627449999997" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="focus"/>
-                                <connections>
-                                    <segue destination="QZp-IK-e8g" kind="presentation" id="Vgj-5v-FuA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5K-Vq-r6j">
-                                <rect key="frame" x="0.0" y="638" width="414" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Back to Main">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="5Zk-cf-9gN"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.90196078430000004" green="0.36470588240000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="QQg-GZ-OXa" firstAttribute="centerX" secondItem="UsD-xz-AZt" secondAttribute="centerX" id="J1Z-nY-iC4"/>
-                            <constraint firstItem="UsD-xz-AZt" firstAttribute="bottom" secondItem="u5K-Vq-r6j" secondAttribute="bottom" constant="50" id="L4R-MO-0WL"/>
-                            <constraint firstItem="QQg-GZ-OXa" firstAttribute="top" secondItem="UsD-xz-AZt" secondAttribute="top" constant="14" id="Vqh-ah-QLz"/>
-                            <constraint firstItem="QOl-GV-EtL" firstAttribute="centerX" secondItem="UsD-xz-AZt" secondAttribute="centerX" id="YFb-1v-Asx"/>
-                            <constraint firstItem="UsD-xz-AZt" firstAttribute="trailing" secondItem="u5K-Vq-r6j" secondAttribute="trailing" id="oLP-a6-6dH"/>
-                            <constraint firstItem="QOl-GV-EtL" firstAttribute="centerY" secondItem="YGR-N2-bey" secondAttribute="centerY" id="uuF-7I-nVV"/>
-                            <constraint firstItem="u5K-Vq-r6j" firstAttribute="leading" secondItem="UsD-xz-AZt" secondAttribute="leading" id="wFj-c8-h81"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="UsD-xz-AZt"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cjQ-Xh-hyT" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="772" y="-1788"/>
-        </scene>
         <!--Scanner Controller-->
         <scene sceneID="YG4-cC-kNv">
             <objects>
-                <viewController id="QZp-IK-e8g" customClass="QRScannerController" customModule="imobiles" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="scan" id="QZp-IK-e8g" customClass="QRScannerController" customModule="imobiles" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="viN-Bf-ld6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
