@@ -43,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D414C1EC20B1D43700D5BF78 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4BC590E2095D006004F46FD /* ViewController.swift */,
+				D4BC592B2095D86B004F46FD /* QRScannerController.swift */,
+				D416220820A4AFB700192FF2 /* TodoViewController.swift */,
+				D420AE9C20B1826F00927773 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D4BC59002095D006004F46FD = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +73,8 @@
 		D4BC590B2095D006004F46FD /* imobiles */ = {
 			isa = PBXGroup;
 			children = (
+				D414C1EC20B1D43700D5BF78 /* ViewControllers */,
 				D4BC590C2095D006004F46FD /* AppDelegate.swift */,
-				D4BC590E2095D006004F46FD /* ViewController.swift */,
-				D4BC592B2095D86B004F46FD /* QRScannerController.swift */,
-				D416220820A4AFB700192FF2 /* TodoViewController.swift */,
-				D420AE9C20B1826F00927773 /* DetailViewController.swift */,
 				D4BC59102095D006004F46FD /* Main.storyboard */,
 				D4BC59162095D00A004F46FD /* Assets.xcassets */,
 				D4BC592D2095FBF3004F46FD /* Launch Screen.storyboard */,
